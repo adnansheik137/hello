@@ -1,9 +1,11 @@
 import streamlit as st
 # From https://github.com/argosopentech/argos-translate
+from textblob import TextBlob
 import argostranslate.package
 import argostranslate.translate
 argostranslate.package.update_package_index()
 available_packages = argostranslate.package.get_available_packages()
+
 
 st.write("Translator app")
 st.write("You can translate into these languages: Chinese, Spanish, German, and French")
