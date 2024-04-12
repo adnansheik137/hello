@@ -32,6 +32,15 @@ if classification_space == "Chinese":
 #if classification_space == "Spanish"
 #   option = language code for Spanish
 
+language_codes = {
+    "Chinese": "zh",
+    "Spanish": "es",
+    "German": "de",
+    "French": "fr"
+}
+
+option = language_codes.get(classification_space, '')
+
 if st.button('Translate'):
     from_code = "en"
     package_to_install = next(
