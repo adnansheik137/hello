@@ -36,8 +36,8 @@ language_codes = {
     "Chinese": "zh",
     "Spanish": "es",
     "German": "de",
-    "French": "fr"
-    "Arabic": "ar"
+    "French": "fr",
+    "Arabic": "ar",
     "Tamil": "ta"
 }
 
